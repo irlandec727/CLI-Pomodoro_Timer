@@ -1,0 +1,33 @@
+# Виртуальное окружение
+venv/
+.env
+
+# Python кеш
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode и прочие IDE
+.vscode/
+.idea/
+
+# Docker
+*.log
+*.pid
+*.seed
+*.bak
+
+# Тестовые артефакты
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Системное
+.DS_Store
+Thumbs.db
+
+# env для WSL
+*.swp
+*.swo
